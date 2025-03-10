@@ -1,0 +1,32 @@
+.mainDiv{
+    /* width:350px; */
+    height:600px;
+    border:2px solid red;
+    display: flex;
+    /* row,column,column-reverse, row-reverse */
+    flex-direction: row;
+    /* flex-start, center,flex-end, space-between, space-around, space-evenly */
+    justify-content: center;
+    /* start,center,end */
+    align-items: center;
+    /* nowrap, wrap */
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.item{
+    padding:3px;
+    width:100px;
+    height:100px;
+}
+#box1{
+    background-color: lightgreen;
+}
+#box2{
+    background-color: lightsalmon;
+}
+#box3{
+    background-color: lightseagreen;
+}
+#box4{
+    background-color: lightpink;
+}
