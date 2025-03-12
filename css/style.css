@@ -1,7 +1,7 @@
 .mainDiv{
     /* width:350px; */
     height:600px;
-    border:2px solid red;
+    border:2px solid rgb(0, 255, 13);
     display: flex;
     /* row,column,column-reverse, row-reverse */
     flex-direction: row;
